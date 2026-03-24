@@ -18,11 +18,14 @@ print("Итоговая строка:", result)
 
 
 # Задание 5.3
-word = input("Введите слово: ")
-if "ф" in word.lower():
-    print("Ого! Это редкое слово!")
-else:
-    print("Эх, это не очень редкое слово...")
+while True:
+    word = input("Введите слово (или 'stop' для выхода): ")
+    if word == "stop":
+        break
+    if "ф" in word.lower():
+        print("Ого! Это редкое слово!")
+    else:
+        print("Эх, это не очень редкое слово...")
 
 
 # Задание 5.4
