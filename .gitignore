@@ -4,6 +4,5 @@ __pycache__/
 *.png 
 .venv/ 
 filtered_images/ 
-postcards/ 
 *.pyc 
 *.log 
